@@ -17,6 +17,7 @@ function onClickNeons()
 
 function onClickNeutrals()
 {
+    //document.getElementById("img1").src = 
     setTimeout(function(){window.location='color_board.html'}, 1000)
 }
 
