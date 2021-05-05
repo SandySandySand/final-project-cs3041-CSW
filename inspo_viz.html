@@ -2,10 +2,7 @@
     Chayanne Sandoval-Williams
     Visual Inspiration Landing Page
 
-    TODO:
-    edit button group
-    link button group to scripts in colorBoardScript
-    edit carousel pictures to be actual images in thing
+    TODO: edit random color to pick random moodboard
 -->
 
 <!DOCTYPE html>
@@ -18,7 +15,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <style src = "style.css"></style> <!--My own style sheeting-->
-        
+
         <title>What Are We Writing Now?</title>
     </head>
 
@@ -31,20 +28,30 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
           </ol>
       
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="images\dusty blue.png" alt="dusty blue.png" style="width:100%;">
+              <img src="images\n_green.png" alt="dusty blue.png" style="width:100%;">
             </div>
       
             <div class="item">
-              <img src="images\dusty brown.png" alt="dusty brown" style="width:100%;">
+              <img src="images\b_blue.png" alt="dusty brown" style="width:100%;">
             </div>
           
             <div class="item">
               <img src="images\rouge.png" alt="rouge" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="images\p_orange.png" alt="rouge" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="images\e_pink.png" alt="rouge" style="width:100%;">
             </div>
           </div>
       
@@ -62,10 +69,14 @@
 
       <div class="container-fluid">
         <div class="btn-group btn-group-lg">
-          <a type="button" class="btn btn-primary btn-lg" href=#>Pastel</a>
-          <a type="button" class="btn btn-primary btn-lg" href=#>Neutral</a>
-          <a type="button" class="btn btn-primary btn-lg" href=#>Neon</a>
-          <a type="button" class="btn btn-primary btn-lg" href=#>Basics</a>
+          <a type="button" class="btn btn-primary btn-lg" href="colorboards\basic_color_board.html">Basics</a>
+          <a type="button" class="btn btn-primary btn-lg" href="colorboards\pastel_color_board.html">Pastel</a>
+          <a type="button" class="btn btn-primary btn-lg" href="colorboards\neutral_color_board.html">Neutral</a>
+          <a type="button" class="btn btn-primary btn-lg" href="colorboards\neon_color_board.html">Neon</a>
+        </div>
+        
+        <div class="text-center">
+          <a type="button" class="btn btn-primary btn-lg" href=#>Random Color</a>
         </div>
       </div>
     </body>
