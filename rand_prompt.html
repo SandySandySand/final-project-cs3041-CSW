@@ -2,9 +2,7 @@
     Chayanne Sandoval-Williams
     Random Prompt Page
 
-    TODO: fix layout information
-    add in dummy intro information
-    add in pick prompt randomly from text file
+    TODO: add more prompts to the javascript file
 -->
 
 <!DOCTYPE html>
@@ -18,6 +16,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <style src = "style.css"></style> <!--My own style sheeting-->
         
+        <script src="generators.js"></script>
+
         <title>What Are We Writing Now?</title>
     </head>
 
@@ -31,7 +31,7 @@
         </div>
 
         <div class="container-fluid text-center">
-            <a type="button" class="btn btn-primary btn-lg" href=#>Generate New Prompt</a>
+            <a type="button" class="btn btn-primary btn-lg" onclick="changePrompt()">Generate New Prompt</a>
         </div>
     </body>
 </html>
