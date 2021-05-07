@@ -44,27 +44,43 @@ function changeEveryword()
 {
     document.getElementById("word1").addEventListener("click", function(){
         one = true;
+        document.getElementById("word1").style.color = "#3627ab";
+        document.getElementById("word1").style.fontWeight = "750";
     });
     document.getElementById("word2").addEventListener("click", function(){
         two = true;
+        document.getElementById("word2").style.color = "#3627ab";
+        document.getElementById("word2").style.fontWeight = "750";
     });
     document.getElementById("word3").addEventListener("click", function(){
         three = true;
+        document.getElementById("word3").style.color = "#3627ab";
+        document.getElementById("word3").style.fontWeight = "750";
     });
     document.getElementById("word4").addEventListener("click", function(){
         four = true;
+        document.getElementById("word4").style.color = "#3627ab";
+        document.getElementById("word4").style.fontWeight = "750";  
     });
     document.getElementById("word5").addEventListener("click", function(){
         five = true;
+        document.getElementById("word5").style.color = "#3627ab";
+        document.getElementById("word5").style.fontWeight = "750";
     });
     document.getElementById("word6").addEventListener("click", function(){
         six = true;
+        document.getElementById("word6").style.color = "#3627ab";
+        document.getElementById("word6").style.fontWeight = "750";
     });
     document.getElementById("word7").addEventListener("click", function(){
         seven = true;
+        document.getElementById("word7").style.color = "#3627ab";
+        document.getElementById("word7").style.fontWeight = "750";
     });
     document.getElementById("word8").addEventListener("click", function(){
         eight = true;
+        document.getElementById("word8").style.color = "#3627ab";
+        document.getElementById("word8").style.fontWeight = "750";
     });
 
     if(one==false){
